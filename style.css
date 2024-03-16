@@ -1,5 +1,42 @@
-.hero-text {
+header {
+    background-color: #1F2937;
+    font: 24px Roboto, sans-serif;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
+header a {
+    font: 18px Roboto, sans-serif;
+    color: #E5E7EB;
+    padding: .25em;
+}
+
+.hero-text {
+    background-color: #1F2937;
+}
+
+.hero-text h2 {
+    font: extra-bold 48px Roboto, sans-serif;
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font: 18px Roboto, sans-serif;
+    color: #E5E7EB;
+}
+
+.information {
+
+}
+
+.quote {
+
+}
+
+.call-to-action button {
+    background-color: #3882F6;
 }
 
 img {
