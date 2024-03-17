@@ -10,7 +10,17 @@ header {
 header a {
     font: 18px Roboto, sans-serif;
     color: #E5E7EB;
-    padding: .25em;
+    padding: 0 3px;
+}
+
+/* Select first element only */
+header .wrapper a:nth-child(-n + 1) {
+    padding-left: 0;
+}
+
+/* Select last element only */
+header .wrapper a:nth-last-child(-n + 1) {
+    padding-right: 0;
 }
 
 .hero-text {
