@@ -51,6 +51,15 @@ header .wrapper a:nth-last-child(-n + 1) {
     margin: 0 auto;
 }
 
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 5px 40px;
+    border-radius: 10px;
+    min-width: 100px;
+    min-height: 35px;
+}
+
 .hero-text button {
     margin: 1em auto 0 0;
 }
@@ -64,13 +73,7 @@ header .wrapper a:nth-last-child(-n + 1) {
 
 }
 
-button {
-    background-color: #3882F6;
-    color: #E5E7EB;
-}
-
 .call-to-action button {
-    background-color: #3882F6;
     border-color: #E5E7EB;
 }
 
