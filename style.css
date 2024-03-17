@@ -1,6 +1,10 @@
+body {
+    font-family: Roboto, sans-serif; 
+}
+
 header {
     background-color: #1F2937;
-    font: 24px Roboto, sans-serif;
+    font-size: 24px;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
@@ -31,6 +35,7 @@ header .wrapper a:nth-last-child(-n + 1) {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 3em 6rem 6em;
 }
 
@@ -152,6 +157,5 @@ footer {
     background-color: #1F2937;
     text-align: center;
     color: #F9FAF8;
-    font-family: Roboto, sans-serif; 
     padding: 2em;
 }
