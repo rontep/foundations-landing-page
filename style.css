@@ -12,7 +12,7 @@ header {
     padding: 0 6rem;
 }
 
-a, p {
+header a, p {
     font: 18px Roboto, sans-serif;
     color: #E5E7EB;
 }
@@ -37,6 +37,11 @@ header .wrapper a:nth-last-child(-n + 1) {
     justify-content: space-between;
     align-items: center;
     padding: 3em 6rem 6em;
+}
+
+.hero-text a, p {
+    font: 18px Roboto, sans-serif;
+    color: #E5E7EB;
 }
 
 .hero-text .wrapper {
