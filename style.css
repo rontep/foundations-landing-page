@@ -3,39 +3,58 @@ header {
     font: 24px Roboto, sans-serif;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding: 0 6rem;
+}
+
+a, p {
+    font: 18px Roboto, sans-serif;
+    color: #E5E7EB;
 }
 
 header a {
-    font: 18px Roboto, sans-serif;
-    color: #E5E7EB;
-    padding: 0 3px;
+    margin: 0 3px;
 }
 
 /* Select first element only */
 header .wrapper a:nth-child(-n + 1) {
-    padding-left: 0;
+    margin-left: 0;
 }
 
 /* Select last element only */
 header .wrapper a:nth-last-child(-n + 1) {
-    padding-right: 0;
+    margin-right: 0;
 }
 
 .hero-text {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 6rem 6em;
+}
+
+.hero-text .wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
 
 .hero-text h2 {
-    font: extra-bold 48px Roboto, sans-serif;
+    font: 800 48px Roboto, sans-serif;
     color: #F9FAF8;
+    margin: 0 auto;
 }
 
 .hero-text p {
-    font: 18px Roboto, sans-serif;
-    color: #E5E7EB;
+    margin: 0 auto;
 }
+
+.hero-text button {
+    margin: 1em auto 0 0;
+}
+
 
 .information {
 
@@ -45,8 +64,14 @@ header .wrapper a:nth-last-child(-n + 1) {
 
 }
 
+button {
+    background-color: #3882F6;
+    color: #E5E7EB;
+}
+
 .call-to-action button {
     background-color: #3882F6;
+    border-color: #E5E7EB;
 }
 
 img {
